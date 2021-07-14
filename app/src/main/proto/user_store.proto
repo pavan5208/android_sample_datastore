@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "com.sample.android_sample_preference_datastore";
+option java_multiple_files = true;
+
+message UserStore {
+    bool is_logged_in = 1;
+    string user_name = 2;
+}
